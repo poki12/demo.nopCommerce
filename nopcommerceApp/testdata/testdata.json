@@ -1,25 +1,25 @@
 { 
   "userlogins" : [ 
      { 
-       "username" : "admin@yourstore.com",
-       "password" : "admin",
+       "username" : "pakinam@abc.com",
+       "password" : "password",
        "exp" : "Pass"
      },
      
      { 
-        "username" : "admin@yourstore.com",
+        "username" : "lolo@abc.com",
         "password" : "adm",
         "exp" : "Fail"
      },
      
      { 
-        "username" : "adm@yourstore.com",
+        "username" : "ahmed@abc.com",
         "password" : "admin",
         "exp" : "Fail"
      },
      
      { 
-        "username" : "adm@yourstore.com",
+        "username" : "adm@abc.com",
         "password" : "adm",
         "exp" : "Fail"
      }
