@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 43, Failures: 9, Errors: 0, Skipped: 34, Time elapsed: 2.667 s <<< FAILURE! - in TestSuite
+setup(org.apache.maven.archetypes.nopcommerceApp.TestLogin)  Time elapsed: 1.256 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Pakinams-MacBook-Air.local', ip: 'fd58:d759:8a5a:d000:cd:fa8:6839:81b4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2', java.version: '11.0.13'
+Driver info: driver.version: FirefoxDriver
+
+setup(org.apache.maven.archetypes.nopcommerceApp.DDTestLogin)  Time elapsed: 0.02 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Pakinams-MacBook-Air.local', ip: 'fd58:d759:8a5a:d000:cd:fa8:6839:81b4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2', java.version: '11.0.13'
+Driver info: driver.version: FirefoxDriver
+
+setup(org.apache.maven.archetypes.nopcommerceApp.TestAddProduct)  Time elapsed: 0.844 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/pakinamnoureldeen/Downloads/nopcommerceApp-master/./Drivers\chromedriver\chromedriver.exe
+
+setup(org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/pakinamnoureldeen/Downloads/nopcommerceApp-master/./Drivers\chromedriver\chromedriver.exe
+
+setup(org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/pakinamnoureldeen/Downloads/nopcommerceApp-master/./Drivers\chromedriver\chromedriver.exe
+
+setup(org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/pakinamnoureldeen/Downloads/nopcommerceApp-master/./Drivers\chromedriver\chromedriver.exe
+
+setup(org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/pakinamnoureldeen/Downloads/nopcommerceApp-master/./Drivers\chromedriver\chromedriver.exe
+
+setup(org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/pakinamnoureldeen/Downloads/nopcommerceApp-master/./Drivers\chromedriver\chromedriver.exe
+
+setup(org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer)  Time elapsed: 0.196 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/pakinamnoureldeen/Downloads/nopcommerceApp-master/./Drivers\chromedriver\chromedriver.exe
+

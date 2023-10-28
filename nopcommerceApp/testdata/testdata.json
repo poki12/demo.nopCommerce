@@ -1,0 +1,27 @@
+{ 
+  "userlogins" : [ 
+     { 
+       "username" : "admin@yourstore.com",
+       "password" : "admin",
+       "exp" : "Pass"
+     },
+     
+     { 
+        "username" : "admin@yourstore.com",
+        "password" : "adm",
+        "exp" : "Fail"
+     },
+     
+     { 
+        "username" : "adm@yourstore.com",
+        "password" : "admin",
+        "exp" : "Fail"
+     },
+     
+     { 
+        "username" : "adm@yourstore.com",
+        "password" : "adm",
+        "exp" : "Fail"
+     }
+  ]
+}

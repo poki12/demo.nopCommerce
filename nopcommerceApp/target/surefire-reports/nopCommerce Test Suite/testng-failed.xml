@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nopCommerce Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Login Tests(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestLogin">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="test_login"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestLogin -->
+      <class name="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="ddt_test_login"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.apache.maven.archetypes.nopcommerceApp.DDTestLogin -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+  <test thread-count="5" name="Products Tests(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct">
+        <methods>
+          <include name="test_IfSearchedProductWasDeletedAfterPressingDeleteButton"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct -->
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="test_ifTheSearchedProductUpdatedAfterEditing"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct -->
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="test_searchByProductName"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName -->
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestAddProduct">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="test_AddProduct"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestAddProduct -->
+      <class name="org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest -->
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="test_searchProductByType"/>
+          <include name="beforeClass"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType -->
+    </classes>
+  </test> <!-- Products Tests(failed) -->
+  <test thread-count="5" name="Manufacturers Tests(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer">
+        <methods>
+          <include name="test_addManufacturer"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer -->
+    </classes>
+  </test> <!-- Manufacturers Tests(failed) -->
+</suite> <!-- Failed suite [nopCommerce Test Suite] -->
